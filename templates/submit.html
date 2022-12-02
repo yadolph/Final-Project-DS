@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Прогнозирование размеров сварного шва при электронно-лучевой сварке тонкостенных конструкций аэрокосмического назначения {% endblock %}</h1>
+        <form method="post" action="calculate/">
+                <h2 access="false" id="control-8216451">Введите значения параметров</h2></div>
+                <label for="text-1669921889331" class="formbuilder-text-label">IW</label>
+                <input type="text" class="form-control" name="IW" access="false" value="47" id="IW">
+
+                <label for="text-1669921889917" class="formbuilder-text-label"><span style="color: rgb(0, 0, 0); font-size: 12px; font-weight: 700; text-align: right;">IF</span></label>
+                <input type="text" class="form-control" name="IF" access="false" value="139" id="IF">
+
+                <label for="text-1669921890483" class="formbuilder-text-label">VW</label>
+                <input type="text" class="form-control" name="VW" access="false" value="4.50" id="VW">
+
+                <label for="text-1669921891661" class="formbuilder-text-label"><span style="color: rgb(0, 0, 0); font-size: 12px; font-weight: 700; text-align: right;">FP</span></label>
+                <input type="text" class="form-control" name="FP" access="false" value="80" id="FP">
+
+                <button type="submit" class="btn-primary btn" name="button" access="false" style="primary" id="button">Отправить</button>
+
+        </form>
+{% endblock %}
